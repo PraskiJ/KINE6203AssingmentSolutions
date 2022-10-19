@@ -1,6 +1,8 @@
-function [trueSide] = triangle(tri);
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+function [trueSide] = triangle(tri)
+
+% Write a function that accepts a single 3-element array (e.g. [3 4 5]), and 
+% returns a logical value (0 or 1) indicating if the 3 elements of the array 
+% represent the sides of a valid triangle.
 %tri = [side1 side2 side3]
 %break up each side to equal the spot in the matrix
 tri = sort(tri);
