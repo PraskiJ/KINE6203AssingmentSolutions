@@ -17,7 +17,10 @@ normDay3 = Day3./Weight;
 normDay1mean =  mean(normDay1);
 normDay2mean =  mean(normDay2);
 normDay3mean =  mean(normDay3); 
-
+% This will create a table of only the Means and DaytoDay data
+% I did this (25,1) because personally I would like to see all the data,
+% even if there are data points that are 0, I would still like to see them
+% so I can make sure I'm not missing anything
 maleGroupIsoMean(25,1) = 0;
 femaleGroupIsoMean(25,1) = 0;
 maleIsoIndMeans(25,1) = 0;
