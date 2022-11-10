@@ -1,5 +1,4 @@
 function [trueSide] = triangle(tri)
-
 % Write a function that accepts a single 3-element array (e.g. [3 4 5]), and 
 % returns a logical value (0 or 1) indicating if the 3 elements of the array 
 % represent the sides of a valid triangle.
